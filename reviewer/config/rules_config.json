@@ -1,0 +1,21 @@
+{
+  "function_parameters": {
+    "warning": 4,
+    "critical": 6
+  },
+
+  "cyclomatic_complexity": {
+    "warning": 10,
+    "critical": 15
+  },
+
+  "long_function": {
+    "warning": 30,
+    "critical": 50
+  },
+
+  "nested_loops": {
+    "warning": 2,
+    "critical": 3
+  }
+}

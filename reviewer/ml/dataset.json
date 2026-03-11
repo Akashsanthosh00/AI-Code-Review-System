@@ -1,0 +1,482 @@
+[
+  {
+    "input_text": "rule_id: NESTED_LOOP | category: performance | severity: WARNING | function_name: find_duplicates | nesting_depth: 2 | snippet: for i in range(len(items)): for j in range(i+1, len(items)): if items[i] == items[j]: return True",
+    "output_text": "The function 'find_duplicates' uses nested loops to compare or process values repeatedly, which can lead to quadratic or higher time complexity. This becomes inefficient as the input grows. Consider using a set, dictionary, indexing strategy, or precomputed lookup table to reduce repeated comparisons."
+  },
+  {
+    "input_text": "rule_id: NESTED_LOOP | category: performance | severity: WARNING | function_name: check_pairs | nesting_depth: 2 | snippet: for i in range(len(items)): for j in range(i+1, len(items)): if items[i] == items[j]: return True",
+    "output_text": "The function 'check_pairs' uses nested loops to compare or process values repeatedly, which can lead to quadratic or higher time complexity. This becomes inefficient as the input grows. Consider using a set, dictionary, indexing strategy, or precomputed lookup table to reduce repeated comparisons."
+  },
+  {
+    "input_text": "rule_id: NESTED_LOOP | category: performance | severity: WARNING | function_name: process_matrix | nesting_depth: 2 | snippet: for i in range(len(items)): for j in range(i+1, len(items)): if items[i] == items[j]: return True",
+    "output_text": "The function 'process_matrix' uses nested loops to compare or process values repeatedly, which can lead to quadratic or higher time complexity. This becomes inefficient as the input grows. Consider using a set, dictionary, indexing strategy, or precomputed lookup table to reduce repeated comparisons."
+  },
+  {
+    "input_text": "rule_id: NESTED_LOOP | category: performance | severity: WARNING | function_name: match_records | nesting_depth: 2 | snippet: for i in range(len(items)): for j in range(i+1, len(items)): if items[i] == items[j]: return True",
+    "output_text": "The function 'match_records' uses nested loops to compare or process values repeatedly, which can lead to quadratic or higher time complexity. This becomes inefficient as the input grows. Consider using a set, dictionary, indexing strategy, or precomputed lookup table to reduce repeated comparisons."
+  },
+  {
+    "input_text": "rule_id: NESTED_LOOP | category: performance | severity: WARNING | function_name: compare_items | nesting_depth: 2 | snippet: for i in range(len(items)): for j in range(i+1, len(items)): if items[i] == items[j]: return True",
+    "output_text": "The function 'compare_items' uses nested loops to compare or process values repeatedly, which can lead to quadratic or higher time complexity. This becomes inefficient as the input grows. Consider using a set, dictionary, indexing strategy, or precomputed lookup table to reduce repeated comparisons."
+  },
+  {
+    "input_text": "rule_id: NESTED_LOOP | category: performance | severity: WARNING | function_name: scan_transactions | nesting_depth: 2 | snippet: for i in range(len(items)): for j in range(i+1, len(items)): if items[i] == items[j]: return True",
+    "output_text": "The function 'scan_transactions' uses nested loops to compare or process values repeatedly, which can lead to quadratic or higher time complexity. This becomes inefficient as the input grows. Consider using a set, dictionary, indexing strategy, or precomputed lookup table to reduce repeated comparisons."
+  },
+  {
+    "input_text": "rule_id: NESTED_LOOP | category: performance | severity: WARNING | function_name: find_common_values | nesting_depth: 2 | snippet: for i in range(len(items)): for j in range(i+1, len(items)): if items[i] == items[j]: return True",
+    "output_text": "The function 'find_common_values' uses nested loops to compare or process values repeatedly, which can lead to quadratic or higher time complexity. This becomes inefficient as the input grows. Consider using a set, dictionary, indexing strategy, or precomputed lookup table to reduce repeated comparisons."
+  },
+  {
+    "input_text": "rule_id: NESTED_LOOP | category: performance | severity: WARNING | function_name: group_overlaps | nesting_depth: 2 | snippet: for i in range(len(items)): for j in range(i+1, len(items)): if items[i] == items[j]: return True",
+    "output_text": "The function 'group_overlaps' uses nested loops to compare or process values repeatedly, which can lead to quadratic or higher time complexity. This becomes inefficient as the input grows. Consider using a set, dictionary, indexing strategy, or precomputed lookup table to reduce repeated comparisons."
+  },
+  {
+    "input_text": "rule_id: NESTED_LOOP | category: performance | severity: WARNING | function_name: detect_conflicts | nesting_depth: 2 | snippet: for i in range(len(items)): for j in range(i+1, len(items)): if items[i] == items[j]: return True",
+    "output_text": "The function 'detect_conflicts' uses nested loops to compare or process values repeatedly, which can lead to quadratic or higher time complexity. This becomes inefficient as the input grows. Consider using a set, dictionary, indexing strategy, or precomputed lookup table to reduce repeated comparisons."
+  },
+  {
+    "input_text": "rule_id: NESTED_LOOP | category: performance | severity: WARNING | function_name: rank_candidates | nesting_depth: 2 | snippet: for i in range(len(items)): for j in range(i+1, len(items)): if items[i] == items[j]: return True",
+    "output_text": "The function 'rank_candidates' uses nested loops to compare or process values repeatedly, which can lead to quadratic or higher time complexity. This becomes inefficient as the input grows. Consider using a set, dictionary, indexing strategy, or precomputed lookup table to reduce repeated comparisons."
+  },
+  {
+    "input_text": "rule_id: NESTED_LOOP | category: performance | severity: WARNING | function_name: merge_ranges | nesting_depth: 2 | snippet: for i in range(len(items)): for j in range(i+1, len(items)): if items[i] == items[j]: return True",
+    "output_text": "The function 'merge_ranges' uses nested loops to compare or process values repeatedly, which can lead to quadratic or higher time complexity. This becomes inefficient as the input grows. Consider using a set, dictionary, indexing strategy, or precomputed lookup table to reduce repeated comparisons."
+  },
+  {
+    "input_text": "rule_id: NESTED_LOOP | category: performance | severity: WARNING | function_name: validate_relations | nesting_depth: 2 | snippet: for i in range(len(items)): for j in range(i+1, len(items)): if items[i] == items[j]: return True",
+    "output_text": "The function 'validate_relations' uses nested loops to compare or process values repeatedly, which can lead to quadratic or higher time complexity. This becomes inefficient as the input grows. Consider using a set, dictionary, indexing strategy, or precomputed lookup table to reduce repeated comparisons."
+  },
+  {
+    "input_text": "rule_id: NESTED_LOOP | category: performance | severity: WARNING | function_name: build_similarity_map | nesting_depth: 2 | snippet: for i in range(len(items)): for j in range(i+1, len(items)): if items[i] == items[j]: return True",
+    "output_text": "The function 'build_similarity_map' uses nested loops to compare or process values repeatedly, which can lead to quadratic or higher time complexity. This becomes inefficient as the input grows. Consider using a set, dictionary, indexing strategy, or precomputed lookup table to reduce repeated comparisons."
+  },
+  {
+    "input_text": "rule_id: NESTED_LOOP | category: performance | severity: WARNING | function_name: search_matches | nesting_depth: 2 | snippet: for i in range(len(items)): for j in range(i+1, len(items)): if items[i] == items[j]: return True",
+    "output_text": "The function 'search_matches' uses nested loops to compare or process values repeatedly, which can lead to quadratic or higher time complexity. This becomes inefficient as the input grows. Consider using a set, dictionary, indexing strategy, or precomputed lookup table to reduce repeated comparisons."
+  },
+  {
+    "input_text": "rule_id: NESTED_LOOP | category: performance | severity: WARNING | function_name: resolve_links | nesting_depth: 2 | snippet: for i in range(len(items)): for j in range(i+1, len(items)): if items[i] == items[j]: return True",
+    "output_text": "The function 'resolve_links' uses nested loops to compare or process values repeatedly, which can lead to quadratic or higher time complexity. This becomes inefficient as the input grows. Consider using a set, dictionary, indexing strategy, or precomputed lookup table to reduce repeated comparisons."
+  },
+  {
+    "input_text": "rule_id: NESTED_LOOP | category: performance | severity: WARNING | function_name: compute_distances | nesting_depth: 2 | snippet: for i in range(len(items)): for j in range(i+1, len(items)): if items[i] == items[j]: return True",
+    "output_text": "The function 'compute_distances' uses nested loops to compare or process values repeatedly, which can lead to quadratic or higher time complexity. This becomes inefficient as the input grows. Consider using a set, dictionary, indexing strategy, or precomputed lookup table to reduce repeated comparisons."
+  },
+  {
+    "input_text": "rule_id: NESTED_LOOP | category: performance | severity: WARNING | function_name: track_intersections | nesting_depth: 2 | snippet: for i in range(len(items)): for j in range(i+1, len(items)): if items[i] == items[j]: return True",
+    "output_text": "The function 'track_intersections' uses nested loops to compare or process values repeatedly, which can lead to quadratic or higher time complexity. This becomes inefficient as the input grows. Consider using a set, dictionary, indexing strategy, or precomputed lookup table to reduce repeated comparisons."
+  },
+  {
+    "input_text": "rule_id: NESTED_LOOP | category: performance | severity: WARNING | function_name: collect_duplicates | nesting_depth: 2 | snippet: for i in range(len(items)): for j in range(i+1, len(items)): if items[i] == items[j]: return True",
+    "output_text": "The function 'collect_duplicates' uses nested loops to compare or process values repeatedly, which can lead to quadratic or higher time complexity. This becomes inefficient as the input grows. Consider using a set, dictionary, indexing strategy, or precomputed lookup table to reduce repeated comparisons."
+  },
+  {
+    "input_text": "rule_id: NESTED_LOOP | category: performance | severity: WARNING | function_name: map_dependencies | nesting_depth: 2 | snippet: for i in range(len(items)): for j in range(i+1, len(items)): if items[i] == items[j]: return True",
+    "output_text": "The function 'map_dependencies' uses nested loops to compare or process values repeatedly, which can lead to quadratic or higher time complexity. This becomes inefficient as the input grows. Consider using a set, dictionary, indexing strategy, or precomputed lookup table to reduce repeated comparisons."
+  },
+  {
+    "input_text": "rule_id: NESTED_LOOP | category: performance | severity: WARNING | function_name: analyze_pairs | nesting_depth: 2 | snippet: for i in range(len(items)): for j in range(i+1, len(items)): if items[i] == items[j]: return True",
+    "output_text": "The function 'analyze_pairs' uses nested loops to compare or process values repeatedly, which can lead to quadratic or higher time complexity. This becomes inefficient as the input grows. Consider using a set, dictionary, indexing strategy, or precomputed lookup table to reduce repeated comparisons."
+  },
+  {
+    "input_text": "rule_id: NESTED_LOOP | category: performance | severity: WARNING | function_name: filter_collisions | nesting_depth: 2 | snippet: for i in range(len(items)): for j in range(i+1, len(items)): if items[i] == items[j]: return True",
+    "output_text": "The function 'filter_collisions' uses nested loops to compare or process values repeatedly, which can lead to quadratic or higher time complexity. This becomes inefficient as the input grows. Consider using a set, dictionary, indexing strategy, or precomputed lookup table to reduce repeated comparisons."
+  },
+  {
+    "input_text": "rule_id: NESTED_LOOP | category: performance | severity: WARNING | function_name: inspect_neighbors | nesting_depth: 2 | snippet: for i in range(len(items)): for j in range(i+1, len(items)): if items[i] == items[j]: return True",
+    "output_text": "The function 'inspect_neighbors' uses nested loops to compare or process values repeatedly, which can lead to quadratic or higher time complexity. This becomes inefficient as the input grows. Consider using a set, dictionary, indexing strategy, or precomputed lookup table to reduce repeated comparisons."
+  },
+  {
+    "input_text": "rule_id: NESTED_LOOP | category: readability | severity: CRITICAL | function_name: assign_clusters | nesting_depth: 3 | snippet: for group in groups: for item in group: for rule in rules: apply_rule(item, rule)",
+    "output_text": "The function 'assign_clusters' contains deeply nested loops, which makes the control flow harder to follow. This kind of nesting increases mental overhead for anyone reading or debugging the code. Consider flattening the logic or extracting inner work into well-named helper functions."
+  },
+  {
+    "input_text": "rule_id: NESTED_LOOP | category: readability | severity: CRITICAL | function_name: compare_tokens | nesting_depth: 3 | snippet: for group in groups: for item in group: for rule in rules: apply_rule(item, rule)",
+    "output_text": "The function 'compare_tokens' contains deeply nested loops, which makes the control flow harder to follow. This kind of nesting increases mental overhead for anyone reading or debugging the code. Consider flattening the logic or extracting inner work into well-named helper functions."
+  },
+  {
+    "input_text": "rule_id: NESTED_LOOP | category: readability | severity: CRITICAL | function_name: sort_relations | nesting_depth: 3 | snippet: for group in groups: for item in group: for rule in rules: apply_rule(item, rule)",
+    "output_text": "The function 'sort_relations' contains deeply nested loops, which makes the control flow harder to follow. This kind of nesting increases mental overhead for anyone reading or debugging the code. Consider flattening the logic or extracting inner work into well-named helper functions."
+  },
+  {
+    "input_text": "rule_id: NESTED_LOOP | category: readability | severity: CRITICAL | function_name: find_repeated_ids | nesting_depth: 3 | snippet: for group in groups: for item in group: for rule in rules: apply_rule(item, rule)",
+    "output_text": "The function 'find_repeated_ids' contains deeply nested loops, which makes the control flow harder to follow. This kind of nesting increases mental overhead for anyone reading or debugging the code. Consider flattening the logic or extracting inner work into well-named helper functions."
+  },
+  {
+    "input_text": "rule_id: NESTED_LOOP | category: maintainability | severity: CRITICAL | function_name: join_collections | nesting_depth: 3 | snippet: for group in groups: for item in group: for rule in rules: apply_rule(item, rule)",
+    "output_text": "The function 'join_collections' relies on nested iteration, which increases structural complexity and makes future changes riskier. When multiple loops are combined, the code becomes harder to test and maintain. Consider simplifying the structure or moving repeated logic into helper functions."
+  },
+  {
+    "input_text": "rule_id: NESTED_LOOP | category: maintainability | severity: CRITICAL | function_name: check_overlaps | nesting_depth: 3 | snippet: for group in groups: for item in group: for rule in rules: apply_rule(item, rule)",
+    "output_text": "The function 'check_overlaps' relies on nested iteration, which increases structural complexity and makes future changes riskier. When multiple loops are combined, the code becomes harder to test and maintain. Consider simplifying the structure or moving repeated logic into helper functions."
+  },
+  {
+    "input_text": "rule_id: NESTED_LOOP | category: maintainability | severity: CRITICAL | function_name: merge_candidates | nesting_depth: 3 | snippet: for group in groups: for item in group: for rule in rules: apply_rule(item, rule)",
+    "output_text": "The function 'merge_candidates' relies on nested iteration, which increases structural complexity and makes future changes riskier. When multiple loops are combined, the code becomes harder to test and maintain. Consider simplifying the structure or moving repeated logic into helper functions."
+  },
+  {
+    "input_text": "rule_id: NESTED_LOOP | category: maintainability | severity: CRITICAL | function_name: detect_cycles | nesting_depth: 3 | snippet: for group in groups: for item in group: for rule in rules: apply_rule(item, rule)",
+    "output_text": "The function 'detect_cycles' relies on nested iteration, which increases structural complexity and makes future changes riskier. When multiple loops are combined, the code becomes harder to test and maintain. Consider simplifying the structure or moving repeated logic into helper functions."
+  },
+  {
+    "input_text": "rule_id: LONG_FUNCTION | category: readability | severity: WARNING | function_name: process_user_data | line_count: 48",
+    "output_text": "The function 'process_user_data' is quite long, which makes the overall flow harder to scan and understand quickly. When too much logic is packed into one function, important steps become difficult to identify. Consider breaking the function into smaller sections or helper functions with descriptive names."
+  },
+  {
+    "input_text": "rule_id: LONG_FUNCTION | category: maintainability | severity: WARNING | function_name: generate_report | line_count: 50",
+    "output_text": "The function 'generate_report' spans 50 lines, which suggests that it is handling too many responsibilities in one place. Long functions are harder to read, test, debug, and modify safely. Consider splitting the logic into smaller helper functions with clear and focused responsibilities."
+  },
+  {
+    "input_text": "rule_id: LONG_FUNCTION | category: maintainability | severity: WARNING | function_name: handle_transaction_flow | line_count: 52",
+    "output_text": "The function 'handle_transaction_flow' spans 52 lines, which suggests that it is handling too many responsibilities in one place. Long functions are harder to read, test, debug, and modify safely. Consider splitting the logic into smaller helper functions with clear and focused responsibilities."
+  },
+  {
+    "input_text": "rule_id: LONG_FUNCTION | category: maintainability | severity: WARNING | function_name: build_dashboard | line_count: 54",
+    "output_text": "The function 'build_dashboard' spans 54 lines, which suggests that it is handling too many responsibilities in one place. Long functions are harder to read, test, debug, and modify safely. Consider splitting the logic into smaller helper functions with clear and focused responsibilities."
+  },
+  {
+    "input_text": "rule_id: LONG_FUNCTION | category: readability | severity: WARNING | function_name: sync_customer_records | line_count: 56",
+    "output_text": "The function 'sync_customer_records' is quite long, which makes the overall flow harder to scan and understand quickly. When too much logic is packed into one function, important steps become difficult to identify. Consider breaking the function into smaller sections or helper functions with descriptive names."
+  },
+  {
+    "input_text": "rule_id: LONG_FUNCTION | category: maintainability | severity: WARNING | function_name: prepare_invoice_data | line_count: 58",
+    "output_text": "The function 'prepare_invoice_data' spans 58 lines, which suggests that it is handling too many responsibilities in one place. Long functions are harder to read, test, debug, and modify safely. Consider splitting the logic into smaller helper functions with clear and focused responsibilities."
+  },
+  {
+    "input_text": "rule_id: LONG_FUNCTION | category: maintainability | severity: WARNING | function_name: orchestrate_pipeline | line_count: 60",
+    "output_text": "The function 'orchestrate_pipeline' spans 60 lines, which suggests that it is handling too many responsibilities in one place. Long functions are harder to read, test, debug, and modify safely. Consider splitting the logic into smaller helper functions with clear and focused responsibilities."
+  },
+  {
+    "input_text": "rule_id: LONG_FUNCTION | category: maintainability | severity: WARNING | function_name: update_account_state | line_count: 62",
+    "output_text": "The function 'update_account_state' spans 62 lines, which suggests that it is handling too many responsibilities in one place. Long functions are harder to read, test, debug, and modify safely. Consider splitting the logic into smaller helper functions with clear and focused responsibilities."
+  },
+  {
+    "input_text": "rule_id: LONG_FUNCTION | category: readability | severity: WARNING | function_name: transform_sales_data | line_count: 64",
+    "output_text": "The function 'transform_sales_data' is quite long, which makes the overall flow harder to scan and understand quickly. When too much logic is packed into one function, important steps become difficult to identify. Consider breaking the function into smaller sections or helper functions with descriptive names."
+  },
+  {
+    "input_text": "rule_id: LONG_FUNCTION | category: maintainability | severity: WARNING | function_name: run_import_workflow | line_count: 66",
+    "output_text": "The function 'run_import_workflow' spans 66 lines, which suggests that it is handling too many responsibilities in one place. Long functions are harder to read, test, debug, and modify safely. Consider splitting the logic into smaller helper functions with clear and focused responsibilities."
+  },
+  {
+    "input_text": "rule_id: LONG_FUNCTION | category: maintainability | severity: WARNING | function_name: create_monthly_summary | line_count: 68",
+    "output_text": "The function 'create_monthly_summary' spans 68 lines, which suggests that it is handling too many responsibilities in one place. Long functions are harder to read, test, debug, and modify safely. Consider splitting the logic into smaller helper functions with clear and focused responsibilities."
+  },
+  {
+    "input_text": "rule_id: LONG_FUNCTION | category: maintainability | severity: WARNING | function_name: validate_order_payload | line_count: 70",
+    "output_text": "The function 'validate_order_payload' spans 70 lines, which suggests that it is handling too many responsibilities in one place. Long functions are harder to read, test, debug, and modify safely. Consider splitting the logic into smaller helper functions with clear and focused responsibilities."
+  },
+  {
+    "input_text": "rule_id: LONG_FUNCTION | category: readability | severity: WARNING | function_name: prepare_export_file | line_count: 72",
+    "output_text": "The function 'prepare_export_file' is quite long, which makes the overall flow harder to scan and understand quickly. When too much logic is packed into one function, important steps become difficult to identify. Consider breaking the function into smaller sections or helper functions with descriptive names."
+  },
+  {
+    "input_text": "rule_id: LONG_FUNCTION | category: maintainability | severity: WARNING | function_name: load_configuration | line_count: 74",
+    "output_text": "The function 'load_configuration' spans 74 lines, which suggests that it is handling too many responsibilities in one place. Long functions are harder to read, test, debug, and modify safely. Consider splitting the logic into smaller helper functions with clear and focused responsibilities."
+  },
+  {
+    "input_text": "rule_id: LONG_FUNCTION | category: maintainability | severity: CRITICAL | function_name: render_statement | line_count: 76",
+    "output_text": "The function 'render_statement' spans 76 lines, which suggests that it is handling too many responsibilities in one place. Long functions are harder to read, test, debug, and modify safely. Consider splitting the logic into smaller helper functions with clear and focused responsibilities."
+  },
+  {
+    "input_text": "rule_id: LONG_FUNCTION | category: maintainability | severity: CRITICAL | function_name: process_subscription_event | line_count: 78",
+    "output_text": "The function 'process_subscription_event' spans 78 lines, which suggests that it is handling too many responsibilities in one place. Long functions are harder to read, test, debug, and modify safely. Consider splitting the logic into smaller helper functions with clear and focused responsibilities."
+  },
+  {
+    "input_text": "rule_id: LONG_FUNCTION | category: readability | severity: CRITICAL | function_name: reconcile_payments | line_count: 80",
+    "output_text": "The function 'reconcile_payments' is quite long, which makes the overall flow harder to scan and understand quickly. When too much logic is packed into one function, important steps become difficult to identify. Consider breaking the function into smaller sections or helper functions with descriptive names."
+  },
+  {
+    "input_text": "rule_id: LONG_FUNCTION | category: maintainability | severity: CRITICAL | function_name: compile_activity_log | line_count: 82",
+    "output_text": "The function 'compile_activity_log' spans 82 lines, which suggests that it is handling too many responsibilities in one place. Long functions are harder to read, test, debug, and modify safely. Consider splitting the logic into smaller helper functions with clear and focused responsibilities."
+  },
+  {
+    "input_text": "rule_id: LONG_FUNCTION | category: maintainability | severity: CRITICAL | function_name: execute_batch_job | line_count: 84",
+    "output_text": "The function 'execute_batch_job' spans 84 lines, which suggests that it is handling too many responsibilities in one place. Long functions are harder to read, test, debug, and modify safely. Consider splitting the logic into smaller helper functions with clear and focused responsibilities."
+  },
+  {
+    "input_text": "rule_id: LONG_FUNCTION | category: maintainability | severity: CRITICAL | function_name: assemble_response_payload | line_count: 86",
+    "output_text": "The function 'assemble_response_payload' spans 86 lines, which suggests that it is handling too many responsibilities in one place. Long functions are harder to read, test, debug, and modify safely. Consider splitting the logic into smaller helper functions with clear and focused responsibilities."
+  },
+  {
+    "input_text": "rule_id: LONG_FUNCTION | category: readability | severity: CRITICAL | function_name: train_review_model | line_count: 88",
+    "output_text": "The function 'train_review_model' is quite long, which makes the overall flow harder to scan and understand quickly. When too much logic is packed into one function, important steps become difficult to identify. Consider breaking the function into smaller sections or helper functions with descriptive names."
+  },
+  {
+    "input_text": "rule_id: LONG_FUNCTION | category: maintainability | severity: CRITICAL | function_name: publish_notifications | line_count: 90",
+    "output_text": "The function 'publish_notifications' spans 90 lines, which suggests that it is handling too many responsibilities in one place. Long functions are harder to read, test, debug, and modify safely. Consider splitting the logic into smaller helper functions with clear and focused responsibilities."
+  },
+  {
+    "input_text": "rule_id: LONG_FUNCTION | category: maintainability | severity: CRITICAL | function_name: parse_application_form | line_count: 92",
+    "output_text": "The function 'parse_application_form' spans 92 lines, which suggests that it is handling too many responsibilities in one place. Long functions are harder to read, test, debug, and modify safely. Consider splitting the logic into smaller helper functions with clear and focused responsibilities."
+  },
+  {
+    "input_text": "rule_id: LONG_FUNCTION | category: maintainability | severity: CRITICAL | function_name: handle_refund_request | line_count: 94",
+    "output_text": "The function 'handle_refund_request' spans 94 lines, which suggests that it is handling too many responsibilities in one place. Long functions are harder to read, test, debug, and modify safely. Consider splitting the logic into smaller helper functions with clear and focused responsibilities."
+  },
+  {
+    "input_text": "rule_id: LONG_FUNCTION | category: readability | severity: CRITICAL | function_name: refresh_cache_entries | line_count: 96",
+    "output_text": "The function 'refresh_cache_entries' is quite long, which makes the overall flow harder to scan and understand quickly. When too much logic is packed into one function, important steps become difficult to identify. Consider breaking the function into smaller sections or helper functions with descriptive names."
+  },
+  {
+    "input_text": "rule_id: LONG_FUNCTION | category: maintainability | severity: CRITICAL | function_name: build_feature_matrix | line_count: 98",
+    "output_text": "The function 'build_feature_matrix' spans 98 lines, which suggests that it is handling too many responsibilities in one place. Long functions are harder to read, test, debug, and modify safely. Consider splitting the logic into smaller helper functions with clear and focused responsibilities."
+  },
+  {
+    "input_text": "rule_id: LONG_FUNCTION | category: maintainability | severity: CRITICAL | function_name: calculate_analytics_summary | line_count: 100",
+    "output_text": "The function 'calculate_analytics_summary' spans 100 lines, which suggests that it is handling too many responsibilities in one place. Long functions are harder to read, test, debug, and modify safely. Consider splitting the logic into smaller helper functions with clear and focused responsibilities."
+  },
+  {
+    "input_text": "rule_id: LONG_FUNCTION | category: maintainability | severity: CRITICAL | function_name: dispatch_tasks | line_count: 102",
+    "output_text": "The function 'dispatch_tasks' spans 102 lines, which suggests that it is handling too many responsibilities in one place. Long functions are harder to read, test, debug, and modify safely. Consider splitting the logic into smaller helper functions with clear and focused responsibilities."
+  },
+  {
+    "input_text": "rule_id: LONG_FUNCTION | category: readability | severity: CRITICAL | function_name: normalize_profile_data | line_count: 104",
+    "output_text": "The function 'normalize_profile_data' is quite long, which makes the overall flow harder to scan and understand quickly. When too much logic is packed into one function, important steps become difficult to identify. Consider breaking the function into smaller sections or helper functions with descriptive names."
+  },
+  {
+    "input_text": "rule_id: LONG_FUNCTION | category: maintainability | severity: CRITICAL | function_name: prepare_audit_output | line_count: 106",
+    "output_text": "The function 'prepare_audit_output' spans 106 lines, which suggests that it is handling too many responsibilities in one place. Long functions are harder to read, test, debug, and modify safely. Consider splitting the logic into smaller helper functions with clear and focused responsibilities."
+  },
+  {
+    "input_text": "rule_id: FUNCTION_PARAMETER_COUNT | category: maintainability | severity: WARNING | function_name: create_user | parameter_count: 5",
+    "output_text": "The function 'create_user' takes 5 parameters, which increases cognitive load for developers reading or calling it. Functions with many inputs are also more difficult to maintain and test. Consider reducing the number of parameters by grouping related values into a single object or helper structure."
+  },
+  {
+    "input_text": "rule_id: FUNCTION_PARAMETER_COUNT | category: design | severity: WARNING | function_name: register_account | parameter_count: 6",
+    "output_text": "The function 'register_account' accepts 6 parameters, which can make the API harder to understand and use correctly. A large parameter list often signals that related data should be grouped together. Consider introducing a configuration object, dataclass, or grouped structure for related inputs."
+  },
+  {
+    "input_text": "rule_id: FUNCTION_PARAMETER_COUNT | category: design | severity: CRITICAL | function_name: build_profile | parameter_count: 7",
+    "output_text": "The function 'build_profile' accepts 7 parameters, which can make the API harder to understand and use correctly. A large parameter list often signals that related data should be grouped together. Consider introducing a configuration object, dataclass, or grouped structure for related inputs."
+  },
+  {
+    "input_text": "rule_id: FUNCTION_PARAMETER_COUNT | category: maintainability | severity: CRITICAL | function_name: send_invoice | parameter_count: 8",
+    "output_text": "The function 'send_invoice' takes 8 parameters, which increases cognitive load for developers reading or calling it. Functions with many inputs are also more difficult to maintain and test. Consider reducing the number of parameters by grouping related values into a single object or helper structure."
+  },
+  {
+    "input_text": "rule_id: FUNCTION_PARAMETER_COUNT | category: design | severity: WARNING | function_name: save_order | parameter_count: 5",
+    "output_text": "The function 'save_order' accepts 5 parameters, which can make the API harder to understand and use correctly. A large parameter list often signals that related data should be grouped together. Consider introducing a configuration object, dataclass, or grouped structure for related inputs."
+  },
+  {
+    "input_text": "rule_id: FUNCTION_PARAMETER_COUNT | category: design | severity: WARNING | function_name: configure_pipeline | parameter_count: 6",
+    "output_text": "The function 'configure_pipeline' accepts 6 parameters, which can make the API harder to understand and use correctly. A large parameter list often signals that related data should be grouped together. Consider introducing a configuration object, dataclass, or grouped structure for related inputs."
+  },
+  {
+    "input_text": "rule_id: FUNCTION_PARAMETER_COUNT | category: maintainability | severity: CRITICAL | function_name: generate_token | parameter_count: 7",
+    "output_text": "The function 'generate_token' takes 7 parameters, which increases cognitive load for developers reading or calling it. Functions with many inputs are also more difficult to maintain and test. Consider reducing the number of parameters by grouping related values into a single object or helper structure."
+  },
+  {
+    "input_text": "rule_id: FUNCTION_PARAMETER_COUNT | category: design | severity: CRITICAL | function_name: create_subscription | parameter_count: 8",
+    "output_text": "The function 'create_subscription' accepts 8 parameters, which can make the API harder to understand and use correctly. A large parameter list often signals that related data should be grouped together. Consider introducing a configuration object, dataclass, or grouped structure for related inputs."
+  },
+  {
+    "input_text": "rule_id: FUNCTION_PARAMETER_COUNT | category: design | severity: WARNING | function_name: update_settings | parameter_count: 5",
+    "output_text": "The function 'update_settings' accepts 5 parameters, which can make the API harder to understand and use correctly. A large parameter list often signals that related data should be grouped together. Consider introducing a configuration object, dataclass, or grouped structure for related inputs."
+  },
+  {
+    "input_text": "rule_id: FUNCTION_PARAMETER_COUNT | category: maintainability | severity: WARNING | function_name: build_report | parameter_count: 6",
+    "output_text": "The function 'build_report' takes 6 parameters, which increases cognitive load for developers reading or calling it. Functions with many inputs are also more difficult to maintain and test. Consider reducing the number of parameters by grouping related values into a single object or helper structure."
+  },
+  {
+    "input_text": "rule_id: FUNCTION_PARAMETER_COUNT | category: design | severity: CRITICAL | function_name: schedule_notification | parameter_count: 7",
+    "output_text": "The function 'schedule_notification' accepts 7 parameters, which can make the API harder to understand and use correctly. A large parameter list often signals that related data should be grouped together. Consider introducing a configuration object, dataclass, or grouped structure for related inputs."
+  },
+  {
+    "input_text": "rule_id: FUNCTION_PARAMETER_COUNT | category: design | severity: CRITICAL | function_name: start_training_job | parameter_count: 8",
+    "output_text": "The function 'start_training_job' accepts 8 parameters, which can make the API harder to understand and use correctly. A large parameter list often signals that related data should be grouped together. Consider introducing a configuration object, dataclass, or grouped structure for related inputs."
+  },
+  {
+    "input_text": "rule_id: FUNCTION_PARAMETER_COUNT | category: maintainability | severity: WARNING | function_name: publish_event | parameter_count: 5",
+    "output_text": "The function 'publish_event' takes 5 parameters, which increases cognitive load for developers reading or calling it. Functions with many inputs are also more difficult to maintain and test. Consider reducing the number of parameters by grouping related values into a single object or helper structure."
+  },
+  {
+    "input_text": "rule_id: FUNCTION_PARAMETER_COUNT | category: design | severity: WARNING | function_name: connect_service | parameter_count: 6",
+    "output_text": "The function 'connect_service' accepts 6 parameters, which can make the API harder to understand and use correctly. A large parameter list often signals that related data should be grouped together. Consider introducing a configuration object, dataclass, or grouped structure for related inputs."
+  },
+  {
+    "input_text": "rule_id: FUNCTION_PARAMETER_COUNT | category: design | severity: CRITICAL | function_name: prepare_checkout | parameter_count: 7",
+    "output_text": "The function 'prepare_checkout' accepts 7 parameters, which can make the API harder to understand and use correctly. A large parameter list often signals that related data should be grouped together. Consider introducing a configuration object, dataclass, or grouped structure for related inputs."
+  },
+  {
+    "input_text": "rule_id: FUNCTION_PARAMETER_COUNT | category: maintainability | severity: CRITICAL | function_name: register_employee | parameter_count: 8",
+    "output_text": "The function 'register_employee' takes 8 parameters, which increases cognitive load for developers reading or calling it. Functions with many inputs are also more difficult to maintain and test. Consider reducing the number of parameters by grouping related values into a single object or helper structure."
+  },
+  {
+    "input_text": "rule_id: FUNCTION_PARAMETER_COUNT | category: design | severity: WARNING | function_name: create_policy | parameter_count: 5",
+    "output_text": "The function 'create_policy' accepts 5 parameters, which can make the API harder to understand and use correctly. A large parameter list often signals that related data should be grouped together. Consider introducing a configuration object, dataclass, or grouped structure for related inputs."
+  },
+  {
+    "input_text": "rule_id: FUNCTION_PARAMETER_COUNT | category: design | severity: WARNING | function_name: launch_campaign | parameter_count: 6",
+    "output_text": "The function 'launch_campaign' accepts 6 parameters, which can make the API harder to understand and use correctly. A large parameter list often signals that related data should be grouped together. Consider introducing a configuration object, dataclass, or grouped structure for related inputs."
+  },
+  {
+    "input_text": "rule_id: FUNCTION_PARAMETER_COUNT | category: maintainability | severity: CRITICAL | function_name: compile_invoice | parameter_count: 7",
+    "output_text": "The function 'compile_invoice' takes 7 parameters, which increases cognitive load for developers reading or calling it. Functions with many inputs are also more difficult to maintain and test. Consider reducing the number of parameters by grouping related values into a single object or helper structure."
+  },
+  {
+    "input_text": "rule_id: FUNCTION_PARAMETER_COUNT | category: design | severity: CRITICAL | function_name: submit_application | parameter_count: 8",
+    "output_text": "The function 'submit_application' accepts 8 parameters, which can make the API harder to understand and use correctly. A large parameter list often signals that related data should be grouped together. Consider introducing a configuration object, dataclass, or grouped structure for related inputs."
+  },
+  {
+    "input_text": "rule_id: FUNCTION_PARAMETER_COUNT | category: design | severity: WARNING | function_name: create_ticket | parameter_count: 5",
+    "output_text": "The function 'create_ticket' accepts 5 parameters, which can make the API harder to understand and use correctly. A large parameter list often signals that related data should be grouped together. Consider introducing a configuration object, dataclass, or grouped structure for related inputs."
+  },
+  {
+    "input_text": "rule_id: FUNCTION_PARAMETER_COUNT | category: maintainability | severity: WARNING | function_name: configure_alert | parameter_count: 6",
+    "output_text": "The function 'configure_alert' takes 6 parameters, which increases cognitive load for developers reading or calling it. Functions with many inputs are also more difficult to maintain and test. Consider reducing the number of parameters by grouping related values into a single object or helper structure."
+  },
+  {
+    "input_text": "rule_id: FUNCTION_PARAMETER_COUNT | category: design | severity: CRITICAL | function_name: build_dashboard_card | parameter_count: 7",
+    "output_text": "The function 'build_dashboard_card' accepts 7 parameters, which can make the API harder to understand and use correctly. A large parameter list often signals that related data should be grouped together. Consider introducing a configuration object, dataclass, or grouped structure for related inputs."
+  },
+  {
+    "input_text": "rule_id: FUNCTION_PARAMETER_COUNT | category: design | severity: CRITICAL | function_name: process_enrollment | parameter_count: 8",
+    "output_text": "The function 'process_enrollment' accepts 8 parameters, which can make the API harder to understand and use correctly. A large parameter list often signals that related data should be grouped together. Consider introducing a configuration object, dataclass, or grouped structure for related inputs."
+  },
+  {
+    "input_text": "rule_id: FUNCTION_PARAMETER_COUNT | category: maintainability | severity: WARNING | function_name: save_preferences | parameter_count: 5",
+    "output_text": "The function 'save_preferences' takes 5 parameters, which increases cognitive load for developers reading or calling it. Functions with many inputs are also more difficult to maintain and test. Consider reducing the number of parameters by grouping related values into a single object or helper structure."
+  },
+  {
+    "input_text": "rule_id: FUNCTION_PARAMETER_COUNT | category: design | severity: WARNING | function_name: start_backup | parameter_count: 6",
+    "output_text": "The function 'start_backup' accepts 6 parameters, which can make the API harder to understand and use correctly. A large parameter list often signals that related data should be grouped together. Consider introducing a configuration object, dataclass, or grouped structure for related inputs."
+  },
+  {
+    "input_text": "rule_id: FUNCTION_PARAMETER_COUNT | category: design | severity: CRITICAL | function_name: create_session | parameter_count: 7",
+    "output_text": "The function 'create_session' accepts 7 parameters, which can make the API harder to understand and use correctly. A large parameter list often signals that related data should be grouped together. Consider introducing a configuration object, dataclass, or grouped structure for related inputs."
+  },
+  {
+    "input_text": "rule_id: FUNCTION_PARAMETER_COUNT | category: maintainability | severity: CRITICAL | function_name: update_customer | parameter_count: 8",
+    "output_text": "The function 'update_customer' takes 8 parameters, which increases cognitive load for developers reading or calling it. Functions with many inputs are also more difficult to maintain and test. Consider reducing the number of parameters by grouping related values into a single object or helper structure."
+  },
+  {
+    "input_text": "rule_id: FUNCTION_PARAMETER_COUNT | category: design | severity: WARNING | function_name: deploy_model | parameter_count: 5",
+    "output_text": "The function 'deploy_model' accepts 5 parameters, which can make the API harder to understand and use correctly. A large parameter list often signals that related data should be grouped together. Consider introducing a configuration object, dataclass, or grouped structure for related inputs."
+  },
+  {
+    "input_text": "rule_id: FUNCTION_PARAMETER_COUNT | category: design | severity: WARNING | function_name: generate_statement | parameter_count: 6",
+    "output_text": "The function 'generate_statement' accepts 6 parameters, which can make the API harder to understand and use correctly. A large parameter list often signals that related data should be grouped together. Consider introducing a configuration object, dataclass, or grouped structure for related inputs."
+  },
+  {
+    "input_text": "rule_id: CYCLOMATIC_COMPLEXITY | category: complexity | severity: WARNING | function_name: evaluate_conditions | complexity: 10",
+    "output_text": "The function 'evaluate_conditions' has cyclomatic complexity 10, which means it contains many decision paths. As branching grows, the function becomes harder to understand, test thoroughly, and debug with confidence. Consider simplifying the control flow, reducing nested conditions, or splitting the logic into smaller helper functions."
+  },
+  {
+    "input_text": "rule_id: CYCLOMATIC_COMPLEXITY | category: complexity | severity: WARNING | function_name: validate_input | complexity: 11",
+    "output_text": "The function 'validate_input' has cyclomatic complexity 11, which means it contains many decision paths. As branching grows, the function becomes harder to understand, test thoroughly, and debug with confidence. Consider simplifying the control flow, reducing nested conditions, or splitting the logic into smaller helper functions."
+  },
+  {
+    "input_text": "rule_id: CYCLOMATIC_COMPLEXITY | category: complexity | severity: WARNING | function_name: decision_engine | complexity: 12",
+    "output_text": "The function 'decision_engine' has cyclomatic complexity 12, which means it contains many decision paths. As branching grows, the function becomes harder to understand, test thoroughly, and debug with confidence. Consider simplifying the control flow, reducing nested conditions, or splitting the logic into smaller helper functions."
+  },
+  {
+    "input_text": "rule_id: CYCLOMATIC_COMPLEXITY | category: complexity | severity: WARNING | function_name: process_rules | complexity: 13",
+    "output_text": "The function 'process_rules' has cyclomatic complexity 13, which means it contains many decision paths. As branching grows, the function becomes harder to understand, test thoroughly, and debug with confidence. Consider simplifying the control flow, reducing nested conditions, or splitting the logic into smaller helper functions."
+  },
+  {
+    "input_text": "rule_id: CYCLOMATIC_COMPLEXITY | category: complexity | severity: WARNING | function_name: route_request | complexity: 14",
+    "output_text": "The function 'route_request' has cyclomatic complexity 14, which means it contains many decision paths. As branching grows, the function becomes harder to understand, test thoroughly, and debug with confidence. Consider simplifying the control flow, reducing nested conditions, or splitting the logic into smaller helper functions."
+  },
+  {
+    "input_text": "rule_id: CYCLOMATIC_COMPLEXITY | category: complexity | severity: CRITICAL | function_name: resolve_discount_policy | complexity: 15",
+    "output_text": "The function 'resolve_discount_policy' has cyclomatic complexity 15, which means it contains many decision paths. As branching grows, the function becomes harder to understand, test thoroughly, and debug with confidence. Consider simplifying the control flow, reducing nested conditions, or splitting the logic into smaller helper functions."
+  },
+  {
+    "input_text": "rule_id: CYCLOMATIC_COMPLEXITY | category: complexity | severity: CRITICAL | function_name: check_eligibility | complexity: 16",
+    "output_text": "The function 'check_eligibility' has cyclomatic complexity 16, which means it contains many decision paths. As branching grows, the function becomes harder to understand, test thoroughly, and debug with confidence. Consider simplifying the control flow, reducing nested conditions, or splitting the logic into smaller helper functions."
+  },
+  {
+    "input_text": "rule_id: CYCLOMATIC_COMPLEXITY | category: complexity | severity: CRITICAL | function_name: handle_access_control | complexity: 17",
+    "output_text": "The function 'handle_access_control' has cyclomatic complexity 17, which means it contains many decision paths. As branching grows, the function becomes harder to understand, test thoroughly, and debug with confidence. Consider simplifying the control flow, reducing nested conditions, or splitting the logic into smaller helper functions."
+  },
+  {
+    "input_text": "rule_id: CYCLOMATIC_COMPLEXITY | category: complexity | severity: WARNING | function_name: score_application | complexity: 10",
+    "output_text": "The function 'score_application' has cyclomatic complexity 10, which means it contains many decision paths. As branching grows, the function becomes harder to understand, test thoroughly, and debug with confidence. Consider simplifying the control flow, reducing nested conditions, or splitting the logic into smaller helper functions."
+  },
+  {
+    "input_text": "rule_id: CYCLOMATIC_COMPLEXITY | category: complexity | severity: WARNING | function_name: evaluate_alerts | complexity: 11",
+    "output_text": "The function 'evaluate_alerts' has cyclomatic complexity 11, which means it contains many decision paths. As branching grows, the function becomes harder to understand, test thoroughly, and debug with confidence. Consider simplifying the control flow, reducing nested conditions, or splitting the logic into smaller helper functions."
+  },
+  {
+    "input_text": "rule_id: CYCLOMATIC_COMPLEXITY | category: complexity | severity: WARNING | function_name: process_claim | complexity: 12",
+    "output_text": "The function 'process_claim' has cyclomatic complexity 12, which means it contains many decision paths. As branching grows, the function becomes harder to understand, test thoroughly, and debug with confidence. Consider simplifying the control flow, reducing nested conditions, or splitting the logic into smaller helper functions."
+  },
+  {
+    "input_text": "rule_id: CYCLOMATIC_COMPLEXITY | category: complexity | severity: WARNING | function_name: dispatch_event | complexity: 13",
+    "output_text": "The function 'dispatch_event' has cyclomatic complexity 13, which means it contains many decision paths. As branching grows, the function becomes harder to understand, test thoroughly, and debug with confidence. Consider simplifying the control flow, reducing nested conditions, or splitting the logic into smaller helper functions."
+  },
+  {
+    "input_text": "rule_id: CYCLOMATIC_COMPLEXITY | category: complexity | severity: WARNING | function_name: review_submission | complexity: 14",
+    "output_text": "The function 'review_submission' has cyclomatic complexity 14, which means it contains many decision paths. As branching grows, the function becomes harder to understand, test thoroughly, and debug with confidence. Consider simplifying the control flow, reducing nested conditions, or splitting the logic into smaller helper functions."
+  },
+  {
+    "input_text": "rule_id: CYCLOMATIC_COMPLEXITY | category: complexity | severity: CRITICAL | function_name: verify_policy_state | complexity: 15",
+    "output_text": "The function 'verify_policy_state' has cyclomatic complexity 15, which means it contains many decision paths. As branching grows, the function becomes harder to understand, test thoroughly, and debug with confidence. Consider simplifying the control flow, reducing nested conditions, or splitting the logic into smaller helper functions."
+  },
+  {
+    "input_text": "rule_id: CYCLOMATIC_COMPLEXITY | category: complexity | severity: CRITICAL | function_name: select_offer | complexity: 16",
+    "output_text": "The function 'select_offer' has cyclomatic complexity 16, which means it contains many decision paths. As branching grows, the function becomes harder to understand, test thoroughly, and debug with confidence. Consider simplifying the control flow, reducing nested conditions, or splitting the logic into smaller helper functions."
+  },
+  {
+    "input_text": "rule_id: CYCLOMATIC_COMPLEXITY | category: complexity | severity: CRITICAL | function_name: compute_pricing_decision | complexity: 17",
+    "output_text": "The function 'compute_pricing_decision' has cyclomatic complexity 17, which means it contains many decision paths. As branching grows, the function becomes harder to understand, test thoroughly, and debug with confidence. Consider simplifying the control flow, reducing nested conditions, or splitting the logic into smaller helper functions."
+  },
+  {
+    "input_text": "rule_id: CYCLOMATIC_COMPLEXITY | category: complexity | severity: WARNING | function_name: run_quality_checks | complexity: 10",
+    "output_text": "The function 'run_quality_checks' has cyclomatic complexity 10, which means it contains many decision paths. As branching grows, the function becomes harder to understand, test thoroughly, and debug with confidence. Consider simplifying the control flow, reducing nested conditions, or splitting the logic into smaller helper functions."
+  },
+  {
+    "input_text": "rule_id: CYCLOMATIC_COMPLEXITY | category: complexity | severity: WARNING | function_name: match_fraud_signals | complexity: 11",
+    "output_text": "The function 'match_fraud_signals' has cyclomatic complexity 11, which means it contains many decision paths. As branching grows, the function becomes harder to understand, test thoroughly, and debug with confidence. Consider simplifying the control flow, reducing nested conditions, or splitting the logic into smaller helper functions."
+  },
+  {
+    "input_text": "rule_id: CYCLOMATIC_COMPLEXITY | category: complexity | severity: WARNING | function_name: process_state_transition | complexity: 12",
+    "output_text": "The function 'process_state_transition' has cyclomatic complexity 12, which means it contains many decision paths. As branching grows, the function becomes harder to understand, test thoroughly, and debug with confidence. Consider simplifying the control flow, reducing nested conditions, or splitting the logic into smaller helper functions."
+  },
+  {
+    "input_text": "rule_id: CYCLOMATIC_COMPLEXITY | category: complexity | severity: WARNING | function_name: assess_risk | complexity: 13",
+    "output_text": "The function 'assess_risk' has cyclomatic complexity 13, which means it contains many decision paths. As branching grows, the function becomes harder to understand, test thoroughly, and debug with confidence. Consider simplifying the control flow, reducing nested conditions, or splitting the logic into smaller helper functions."
+  },
+  {
+    "input_text": "rule_id: CYCLOMATIC_COMPLEXITY | category: complexity | severity: WARNING | function_name: resolve_permissions | complexity: 14",
+    "output_text": "The function 'resolve_permissions' has cyclomatic complexity 14, which means it contains many decision paths. As branching grows, the function becomes harder to understand, test thoroughly, and debug with confidence. Consider simplifying the control flow, reducing nested conditions, or splitting the logic into smaller helper functions."
+  },
+  {
+    "input_text": "rule_id: CYCLOMATIC_COMPLEXITY | category: complexity | severity: CRITICAL | function_name: calculate_bonus_logic | complexity: 15",
+    "output_text": "The function 'calculate_bonus_logic' has cyclomatic complexity 15, which means it contains many decision paths. As branching grows, the function becomes harder to understand, test thoroughly, and debug with confidence. Consider simplifying the control flow, reducing nested conditions, or splitting the logic into smaller helper functions."
+  },
+  {
+    "input_text": "rule_id: CYCLOMATIC_COMPLEXITY | category: complexity | severity: CRITICAL | function_name: apply_validation_rules | complexity: 16",
+    "output_text": "The function 'apply_validation_rules' has cyclomatic complexity 16, which means it contains many decision paths. As branching grows, the function becomes harder to understand, test thoroughly, and debug with confidence. Consider simplifying the control flow, reducing nested conditions, or splitting the logic into smaller helper functions."
+  },
+  {
+    "input_text": "rule_id: CYCLOMATIC_COMPLEXITY | category: complexity | severity: CRITICAL | function_name: evaluate_discount_paths | complexity: 17",
+    "output_text": "The function 'evaluate_discount_paths' has cyclomatic complexity 17, which means it contains many decision paths. As branching grows, the function becomes harder to understand, test thoroughly, and debug with confidence. Consider simplifying the control flow, reducing nested conditions, or splitting the logic into smaller helper functions."
+  },
+  {
+    "input_text": "rule_id: CYCLOMATIC_COMPLEXITY | category: complexity | severity: WARNING | function_name: process_refund_decision | complexity: 10",
+    "output_text": "The function 'process_refund_decision' has cyclomatic complexity 10, which means it contains many decision paths. As branching grows, the function becomes harder to understand, test thoroughly, and debug with confidence. Consider simplifying the control flow, reducing nested conditions, or splitting the logic into smaller helper functions."
+  },
+  {
+    "input_text": "rule_id: CYCLOMATIC_COMPLEXITY | category: complexity | severity: WARNING | function_name: handle_webhook_event | complexity: 11",
+    "output_text": "The function 'handle_webhook_event' has cyclomatic complexity 11, which means it contains many decision paths. As branching grows, the function becomes harder to understand, test thoroughly, and debug with confidence. Consider simplifying the control flow, reducing nested conditions, or splitting the logic into smaller helper functions."
+  },
+  {
+    "input_text": "rule_id: CYCLOMATIC_COMPLEXITY | category: complexity | severity: WARNING | function_name: verify_checkout_flow | complexity: 12",
+    "output_text": "The function 'verify_checkout_flow' has cyclomatic complexity 12, which means it contains many decision paths. As branching grows, the function becomes harder to understand, test thoroughly, and debug with confidence. Consider simplifying the control flow, reducing nested conditions, or splitting the logic into smaller helper functions."
+  },
+  {
+    "input_text": "rule_id: CYCLOMATIC_COMPLEXITY | category: complexity | severity: WARNING | function_name: approve_request | complexity: 13",
+    "output_text": "The function 'approve_request' has cyclomatic complexity 13, which means it contains many decision paths. As branching grows, the function becomes harder to understand, test thoroughly, and debug with confidence. Consider simplifying the control flow, reducing nested conditions, or splitting the logic into smaller helper functions."
+  },
+  {
+    "input_text": "rule_id: CYCLOMATIC_COMPLEXITY | category: complexity | severity: WARNING | function_name: resolve_notification_flow | complexity: 14",
+    "output_text": "The function 'resolve_notification_flow' has cyclomatic complexity 14, which means it contains many decision paths. As branching grows, the function becomes harder to understand, test thoroughly, and debug with confidence. Consider simplifying the control flow, reducing nested conditions, or splitting the logic into smaller helper functions."
+  },
+  {
+    "input_text": "rule_id: CYCLOMATIC_COMPLEXITY | category: complexity | severity: CRITICAL | function_name: route_support_case | complexity: 15",
+    "output_text": "The function 'route_support_case' has cyclomatic complexity 15, which means it contains many decision paths. As branching grows, the function becomes harder to understand, test thoroughly, and debug with confidence. Consider simplifying the control flow, reducing nested conditions, or splitting the logic into smaller helper functions."
+  }
+]

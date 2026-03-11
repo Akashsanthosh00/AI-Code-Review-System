@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI Code Reviewer</title>
+    <link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+
+<header class="top-bar">
+    <h1>AI Code Reviewer</h1>
+    <p class="subtitle">Analyze code quality, detect issues, highlight problem lines, and export reports</p>
+</header>
+
+<div class="container">
+    <div class="toolbar">
+        <label for="fileInput" class="toolbar-btn secondary-btn">Upload File</label>
+        <input type="file" id="fileInput" accept=".py,.txt,.js,.java,.cpp,.c,.json,.html,.css">
+
+        <button class="toolbar-btn light-btn" onclick="clearAll()">Clear</button>
+        <button class="toolbar-btn primary-btn" onclick="reviewCode()">Review Code</button>
+        <button class="toolbar-btn success-btn" id="downloadBtn" onclick="downloadReport()" disabled>Download Report</button>
+    </div>
+
+    <div class="split-layout">
+        <div class="panel">
+            <div class="section-title">Input Code</div>
+            <textarea
+                id="inputCode"
+                placeholder="Paste Python code here or upload a file..."></textarea>
+        </div>
+
+        <div class="panel">
+            <div class="section-title">Review Report</div>
+            <div id="outputResult" class="review-panel">The review report will appear here...</div>
+        </div>
+    </div>
+
+    <div class="highlight-section">
+        <div class="section-title">Highlighted Issue Lines</div>
+        <div id="highlightedCode" class="code-preview">
+            <div class="empty-state">Reviewed code with highlighted issue lines will appear here...</div>
+        </div>
+    </div>
+</div>
+
+<script src="/static/script.js"></script>
+</body>
+</html>

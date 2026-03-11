@@ -1,0 +1,50 @@
+{
+ "summary": {
+  "function_count": 1,
+  "loop_count": 3,
+  "if_count": 4,
+  "issue_count": 2
+ },
+ "issues": [
+  {
+   "id": "NESTED_LOOP",
+   "title": "Nested loops detected",
+   "category": "COMPLEXITY",
+   "severity": "CRITICAL",
+   "location": {
+    "function": "bad_function",
+    "start_line": 1,
+    "end_line": 19
+   },
+   "metrics": {
+    "nesting_depth": 3
+   },
+   "description": "The function 'bad_function' contains nested loops with a maximum depth of 3.",
+   "impact": "Deeply nested loops increase time complexity and reduce code readability and maintainability.",
+   "suggestion": "Consider refactoring nested loops using helper functions, early exits, or alternative algorithms."
+  },
+  {
+   "id": "FUNCTION_PARAMETER_COUNT",
+   "title": "Too many function parameters",
+   "category": "MAINTAINABILITY",
+   "severity": "CRITICAL",
+   "location": {
+    "function": "bad_function",
+    "start_line": 1,
+    "end_line": 19
+   },
+   "metrics": {
+    "parameter_count": 6,
+    "warning_threshold": 4,
+    "critical_threshold": 6
+   },
+   "description": "The function 'bad_function' has 6 parameters.",
+   "impact": "Functions with many parameters are harder to understand and maintain.",
+   "suggestion": "Consider grouping parameters into objects or splitting the function."
+  }
+ ],
+ "score": {
+  "score": 70,
+  "grade": "Average"
+ }
+}
