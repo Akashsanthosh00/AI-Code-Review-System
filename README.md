@@ -123,6 +123,16 @@ http://127.0.0.1:5000
 
 ---
 
+## Running with Docker
+
+Build the image:
+docker build -t ai-code-review-system .
+
+Run the container:
+docker run -p 5000:5000 ai-code-review-system
+
+Then open http://localhost:5000 in your browser.
+
 ## Example Workflow
 
 1. Paste Python code or upload a file
